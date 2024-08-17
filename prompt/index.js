@@ -8,7 +8,13 @@ document.writeln("El resultado es: " + resultado)
 const name = prompt("Ingrese su nombre")
 alert("Hola", name)
 document.write("Hola", name)
+
 const num3 = parseInt("Ingrese su primer número")
 const num4 = ParseInt("Ingrese su segundo número")
 const resultado1 = num1 + num2
 document.writeln("El resultado es: " + resultado1)
+
+const num5 = parseInt(pront("Primer número:)"))
+const num6 = parseInt(pront("Segundo número:)"))
+const resultado2 = num5 + num6;
+document.writeln("El resultado es " + resultado2)
