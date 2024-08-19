@@ -1,12 +1,13 @@
 function saludar(name = "sin nombre") {
-    document.write("Hola " + name);
-}
-
-saludar("Maria");
-
-function saludar(name) {
     return("Hola " + name)
 }
 
-const resultado = saludar("Maria")
-console.log(resultado)
+const despedir = (name) => {
+    return ("Hasta luego " + name)
+}
+
+const intro = saludar("Maria")
+const outro = despedir ("María")
+console.log(intro, outro)
+
+
