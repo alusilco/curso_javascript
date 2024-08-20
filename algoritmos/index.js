@@ -52,7 +52,6 @@ console.log(esParOImpar(7));
 
 /*Escribe una función que 
 reciba un carácter y verifique si es una vocal (a, e, i, o, u).*/
-
 function esVocal(letra) {
     letra = letra.toLowerCase();
     if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
@@ -62,5 +61,7 @@ function esVocal(letra) {
     }
 }
 
-console.log(esVocal('A'));  
-console.log(esVocal('b'));  
+// Llamada a la función
+console.log(esVocal('A'));  // Salida: Es una vocal
+console.log(esVocal('b'));  // Salida: No es una vocal
+
